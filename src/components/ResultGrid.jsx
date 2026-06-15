@@ -51,7 +51,6 @@ const ResultGrid = () => {
                         src: item.images.downsized.url
                     }))
                 }
-                console.log(data);
                 
                 dispatch(setResults(data))
             } catch (err) {
