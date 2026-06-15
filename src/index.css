@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+#title {
+    background: linear-gradient(transparent,black);
+}
+
+*{
+    font-family:'subway-tile',sans-serif;
+}
