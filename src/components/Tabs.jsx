@@ -11,7 +11,7 @@ const Tabs = () => {
 
 
     return (
-        <div className='flex gap-5 p-10'>
+        <div className='flex gap-5 p-10' id='tabs'>
             {tabs.map((elem, idx) => (
                 <button
                     key={idx}
