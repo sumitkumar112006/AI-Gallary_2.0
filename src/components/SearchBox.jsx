@@ -23,7 +23,7 @@ const SearchBox = () => {
                     value={text}
                     required
                     onChange={(e) => {
-                        setText(e.target.value)
+                        setText(e.target.value);
                         
                     }}
                     className='w-full border-2 px-4 py-1 text-xl rounded outline-none '
